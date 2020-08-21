@@ -1,0 +1,17 @@
+Tree Traversal:
+
+---->Inorder Traversal
+    >Go to left-subtree
+    Visit Node
+    Go to right-subtree
+    
+    
+ ____>  Preorder Traversal 
+      >Visit Node
+      Go to left-subtree
+      Go to right-subtree
+      
+______>   Postorder Traversal  
+     >Go to left-subtree
+     Go to right-subtree
+      Visit Node
