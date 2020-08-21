@@ -1,0 +1,18 @@
+Difference Between Array and Stack
+Definition
+An array is a data structure consisting of a collection of elements each identified by the array index.
+In contrast, a stack is an abstract data type that serves as a collection of elements with two principal
+operations: push and pop. Thus, this is the main difference between Array and Stack.
+
+Data Types
+Also, another difference between Array and Stack is that an array contains elements
+of the same data type while a stack contains elements of different data types.
+
+Basic Operations
+Furthermore, basic operations of an array include insert, delete, modify, traverse,
+sort, search and merge while basic operations of the stack are push, pop and peek.
+
+Access Elements
+In an array, any element can be accessed using the array index. However, in a stack, 
+only the topmost element can be read or removed at a time. Hence, this is also a
+difference between Array and Stack
