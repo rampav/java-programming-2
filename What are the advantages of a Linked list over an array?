@@ -1,0 +1,3 @@
+The principal benefit of a linked list over a conventional array is that the list elements
+can be easily inserted or removed without reallocation or reorganization of the entire structure 
+because the data items need not be stored contiguously
