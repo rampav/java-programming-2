@@ -1,0 +1,8 @@
+Priority Queue is an extension of queue with following properties.
+1) Every item has a priority associated with it.
+2) An element with high priority is de-queued before an element with low priority.
+3) If two elements have the same priority, they are served according to their order in the queue.
+
+The minimum number of queue required is 2.
+
+One for storing the actual data and another one for storing the priorities
