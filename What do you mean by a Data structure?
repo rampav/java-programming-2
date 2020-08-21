@@ -1,0 +1,8 @@
+&A data structure is a particular way of organizing data in a computer so that it can be used effectively.
+&There are 2 basic types of data structures:
+1) linear     2) non linear
+->linear data structures: A data structure is called linear if all of its elements are arranged in the linear order. 
+   In linear data structures, the elements are stored in non-hierarchical way where each element has the successors and predecessors except the first and last element. 
+   include arrays, linked lists, queue, stacks etc.
+ 2)Non linear: This data structure does not form a sequence i.e. each item or element is connected with two or more other items in a non-linear arrangement. 
+    The data elements are not arranged in sequential structure.include trees, graphs etc.
