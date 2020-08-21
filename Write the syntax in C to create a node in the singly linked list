@@ -1,0 +1,5 @@
+creating alinked list using a structure:
+struct node{
+int data;  //data
+struct node *next;//node
+};
