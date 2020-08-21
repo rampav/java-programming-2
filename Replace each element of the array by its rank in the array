@@ -1,0 +1,46 @@
+A solution can be provided using maps. The array element and its index are stored in two columns in the map and later the index is replaced by the element's rank.
+
+
+Elements in a map will be stored in sorted order, so on iterating it, the elements will be in an increasing order sequence.
+Assign values for each element in increasing order starting from 1 to n, incrementing by 1 for each element.
+
+
+// C++ program  to replace each element by its rank in the given array
+
+#include
+#include
+
+using namespace std;
+
+void transform(int arr[], int n)
+{
+map<int, int> map;
+
+for (int i = 0; i < n; i++)
+map[arr[i]] = i;
+
+int rank = 1;
+
+for (auto i: map)
+arr[i.second] = rank++; // i.second stores the index of element i
+}
+
+int main()
+{
+int n;
+cout <<“\nEnter the number of elements : “;
+cin >> n;
+int arr[n];
+cout << “\nInput the array elements : “;
+for (int i = 0; i < n; i++)
+cin >> arr[i];
+
+// transform the array
+transform(arr, n);
+
+cout <<“\nAfter ranking : “;
+for (int i = 0; i < n; i++)
+cout << arr[i] << ” “;
+
+return 0;
+}
